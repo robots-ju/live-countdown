@@ -1,0 +1,28 @@
+html, body {
+    min-height: 100%;
+}
+
+#app {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: #ffaf22;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#text {
+    flex-grow: 1;
+    text-align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
+    font-size: 8vh;
+    line-height: 1.5em;
+}
+
+a {
+    color: inherit;
+}
